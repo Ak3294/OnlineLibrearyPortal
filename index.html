@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Akshayadhyapan-Online Library Portal</title>
+</head>
+
+<body>
+
+    <!-- Navigation Bar Code -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><strong>Akshayadhyapan</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="">Documentation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="">About</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Contant
+                        </a>
+
+                        <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Support</a></li>
+                            <li><a class="dropdown-item" href="#">Contact-Us</a></li>
+                            <li><a class="dropdown-item" href="#">Collection</a></li>
+                            <li><a class="dropdown-item" href="#">Magazines <span
+                                        class="badge bg-success">New</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Account
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Inbox <span class="badge bg-primary">10+</span></a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Profile <span class="badge bg-success">New</span></a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Notification<span
+                                        class="badge bg-danger">99+</span></a></li>
+                            <li><a class="dropdown-item" href="#">Log-out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+     <!-- Below Navigation Bar -->
+    <div class="container my-5">
+        <h1><strong> Welcome to India's No.1 Online Library Plateform</strong></h1>
+    </div>
+    <div id="message"></div>
+    <div class="container my-4">
+        <form id="libraryForm">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"><strong>Book Name</strong> </label>
+                <input type="text" class="form-control" id="bookName" placeholder="Ex.Let Us C++"
+                    aria-describedby="textHelp">
+                <div id="textHelp" class="form-text">Book name not more than 20 words.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputtext" class="form-label"><strong>Author Name</strong></label>
+                <input type="text" class="form-control" id="author" placeholder="Ex.Akshay Kumar Hiran">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputtext" class="form-label"><strong>Publication</strong></label>
+                <input type="text" class="form-control" id="publicationBook" placeholder="Ex.BPB Publication">
+            </div>
+            <div class="row g-3 align-items-center my-4">
+                <div class="col-auto">
+                    <label for="inputnumber" class="col-form-label"><strong>Book Prize</strong></label>
+                </div>
+                <div class="col-auto">
+                    <input type="number" id="bookprize" class="form-control" placeholder="Ex.250.00"
+                        aria-describedby="numberHelpInline">
+                </div>
+                <div class="col-auto">
+                    <span id="passwordHelpInline" class="form-text">
+                        Book Price are lies on 1-10,000.
+                    </span>
+                </div>
+            </div>
+
+            <!-- Check Buttons -->
+            <div class="container my-4">
+                <div class="form-check ">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="programming" value="Progarmming Language"
+                        checked>
+                    <label class="form-check-label" for="exampleRadios">
+                        Programming Language
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="datascience" value=" Data Science and Algorithms">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Data Science and Algorithms
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="graphics" value="Graphics & Designing"
+                        checked>
+                    <label class="form-check-label" for="exampleRadios">
+                        Graphics & Designing
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="networking" value="Digital Networking and Technology">
+                    <label class="form-check-label" for="exampleRadios">
+                        Digital Networking and Technology
+                    </label>
+                </div>
+            </div>
+
+            <!-- Check Box -->
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck">
+                <label class="form-check-label" for="exampleCheck">Re-Check All Data</label>
+            </div>
+            <button type="submit" class="btn btn-primary">+ Add Book</button>
+        </form>
+    </div>
+
+    <!-- Table -->
+
+    <div id="table ">
+    </div>
+
+    <div class="container my-5">
+        <h5><strong>Your Books</strong></h5>
+        <div class="table-responsive">
+            <table class="table">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Book Name</th>
+                        <th scope="col">Author Name</th>
+                        <th scope="col">Prize</th>
+                        <th scope="col">Publication</th>
+                        <th scope="col">type</th>
+                    </tr>
+                </thead>
+                <tbody id='tableBody'>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="index.js"></script> -->
+    <script src="indexes6.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
